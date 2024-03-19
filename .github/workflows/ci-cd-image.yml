@@ -32,6 +32,6 @@ jobs:
       - name: start container
         run: docker-compose up -d
       - name: view container
-        run: docker-compose ls
+        run: docker-compose ps
       - name: check container
         run: curl localhost:8080
